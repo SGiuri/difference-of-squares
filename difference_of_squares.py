@@ -1,10 +1,10 @@
 def square_of_sum(number):
-    pass
+    return (number * (number + 1) / 2) ** 2
 
 
 def sum_of_squares(number):
-    pass
+    return (2 * number ** 3 + 3 * number ** 2 + number) / 6
 
 
 def difference_of_squares(number):
-    pass
+    return square_of_sum(number) - sum_of_squares(number)
